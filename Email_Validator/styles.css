@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+    font-family: "Roboto", serif;
+}
+
+.content img{
+    margin: auto;
+    align-items: center;
+    background-color: aliceblue;
+    height: 100px;
+}
+
+header{
+    font-family: "Barriecito" !important; 
+    color: #fff;
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    min-height: 50vh;
+    flex-direction: column;
+}
+
+.ipt{
+    margin: 30px 0;
+}
+
+.ipt input{
+    height: 1.5rem;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin-right: 10px;
+    width: 20vw;
+}
+
+.ipt button{
+    height: 1.5rem;
+    background-color: #000000;
+    color: #fff;
+    padding: 0 10px;
+    border-radius: 3px;
+}
+
+.ipt button:hover{
+    cursor: pointer;
+}
+
+.result{
+    background: #fff;
+    padding: 10px 0;
+    width: 27vw;
+    min-height: 30vh;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.result h3{
+    text-align: center;
+}
+
+#content div::first-letter{
+    text-transform: uppercase;
+}
+
+#content{
+    padding: 0 10px;
+}
+
+#content div{
+    padding: 3px 0;
+}
